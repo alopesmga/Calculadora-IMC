@@ -56,8 +56,6 @@ function handleButtonClick() {
   var height = Number(inputHeight.value);
 
   var imc = calculateImc(weight, height);
-  var formattedImc = imc.toFixed(2).replace('.', ',');
-
   imcResult.textContent = imc;
 }
 
