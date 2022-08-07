@@ -1,3 +1,8 @@
+///código feito por Dra. Aline Lopes
+///Pós-doutoranda em Ecologia
+///Universidade de Brasília
+///http://lattes.cnpq.br/2684265635838712
+
 function start() {
   var buttonCalculateImc = document.querySelector('#button-calculate-imc');
   buttonCalculateImc.addEventListener('click', handleButtonClick);
